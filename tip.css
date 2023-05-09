@@ -14,7 +14,18 @@
     border: 1px solid rgb(230, 146, 146);
     background-color: #fac43a;
     border-radius: 25px;
+    box-shadow: 10px 10px ;
 }
+.result-box{
+    height:30%;
+    width:30%;
+    border: 1px solid rgb(219, 133, 133);
+    background-color:  rgba(15, 228, 217, 0.555);;
+    border-radius: 25px;
+    opacity: 0.8;
+    box-shadow: 10px 10px;
+}
+
 .title{
     height:10%;
     width:30%;
@@ -23,7 +34,14 @@
 .sub-box{
     height:12%;
     width:100%;
+
     /* border: 1px solid blue; */
+}
+.res-box{
+    height:40%;
+    width: 100%;
+    
+    /* border: 1px solid saddlebrown; */
 }
 .sub-box1{
     height:20%;
@@ -49,7 +67,6 @@
     font-size: 25px;
 }
 
-
 /* flex part of all dives */
 .flex-container{
     display: flex;
@@ -66,6 +83,13 @@
     align-items: center;
 }
 .flex-sub-box{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.flex-result-box{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
