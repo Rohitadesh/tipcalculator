@@ -64,7 +64,7 @@
 .text{
     font-family: 'Poppins', sans-serif;
     font-weight: 200;
-    font-size: 25px;
+    font-size: large;
 }
 
 /* flex part of all dives */
@@ -98,16 +98,20 @@
 }
 @media screen and (max-width:600px){
     .container{
-        width:100vw;
+        width:100%;
     }
     .box{
-        height:50%;
-        width:30%;
-        background-color: #6ddd4a;
+        height:40%;
+        width:60%;
+        /* background-color: #6ddd4a; */
+    }
+    .result-box{
+        height: 30%;
+        width:60%;
     }
     .text{
         font-family: 'Poppins', sans-serif;
-        
+        font-weight: 200;
         font-size: small;
     }
     .total-person{
